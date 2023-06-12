@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+  <control namespace="es.cegoc.pokelist" constructor="PokeList" version="0.0.1" display-name-key="PokeList" description-key="PokeList description" control-type="standard">
+    <external-service-usage enabled="false"/>
+    <property name="sampleProperty" display-name-key="Property_Display_Key" description-key="Property_Desc_Key" of-type="SingleLine.Text" usage="bound" required="true"/>
+    <resources>
+      <code path="index.ts" order="1"/>
+      <css path="css/App.css" order="1"/>
+      <css path="css/VisorDatos.css" order="1"/>
+      <css path="css/VisorDatosDescripcion.css" order="1"/>
+      <css path="css/Stats.css" order="1"/>
+      <resx path="strings/pokelist.3082.resx" version="1.0.0"/>
+      <resx path="strings/pokelist.1033.resx" version="1.0.0"/>
+      <img path="img/Pokeball.png"/>
+      <img path="img/NotAvailable.png"/>
+    </resources>
+  </control>
+</manifest>

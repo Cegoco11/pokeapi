@@ -1,0 +1,20 @@
+.visordatosdescripcion-contenedor-detalles {
+  text-align: start;
+  margin: 10px;
+}
+
+.visordatosdescripcion-span-bold {
+  font-weight: bold;
+}
+
+.visordatosdescripcion-text {
+  margin: 5px;
+}
+
+.visordatosdescripcion-titulo {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}

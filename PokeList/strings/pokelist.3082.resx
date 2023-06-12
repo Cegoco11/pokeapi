@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <xsd:schema id="root" xmlns="" xmlns:xsd="https://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xsd:import namespace="https://www.w3.org/XML/1998/namespace"/>
+        <xsd:element name="root" msdata:IsDataSet="true">
+            <xsd:complexType>
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="metadata">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" use="required" type="xsd:string"/>
+                            <xsd:attribute name="type" type="xsd:string"/>
+                            <xsd:attribute name="mimetype" type="xsd:string"/>
+                            <xsd:attribute ref="xml:space"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="assembly">
+                        <xsd:complexType>
+                            <xsd:attribute name="alias" type="xsd:string"/>
+                            <xsd:attribute name="name" type="xsd:string"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+                            <xsd:attribute ref="xml:space"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
+            </xsd:complexType>
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="Control_Display_Name_Key" xml:space="preserve">
+        <value>Control Name</value>
+    </data>
+    <data name="Control_Description_Key" xml:space="preserve">
+        <value>Control Description</value>
+    </data>
+    <data name="searchbox-placeholder" xml:space="preserve">
+        <value>¿Qué Pokémon quieres buscar?</value>
+    </data>
+    <data name="combobox-gen-placeholder" xml:space="preserve">
+        <value>Elige la generación</value>
+    </data>
+    <data name="checkbox-label" xml:space="preserve">
+        <value>Variocolor</value>
+    </data>
+    <data name="game-emerald" xml:space="preserve">
+        <value>Esmeralda</value>
+    </data>
+    <data name="game-firered-leafgreen" xml:space="preserve">
+        <value>RojoFuego/VerdeHoja</value>
+    </data>
+    <data name="game-ruby-sapphire" xml:space="preserve">
+        <value>Rubí/Zafiro</value>
+    </data>
+    <data name="game-diamond-pearl" xml:space="preserve">
+        <value>Diamante/Perla</value>
+    </data>
+    <data name="game-heartgold-soulsilver" xml:space="preserve">
+        <value>Oro/Plata</value>
+    </data>
+    <data name="game-platinum" xml:space="preserve">
+        <value>Platino</value>
+    </data>
+    <data name="game-red-blue" xml:space="preserve">
+        <value>Rojo/Azul</value>
+    </data>
+    <data name="game-yellow" xml:space="preserve">
+        <value>Amarillo</value>
+    </data>
+    <data name="game-crystal" xml:space="preserve">
+        <value>Cristal</value>
+    </data>
+    <data name="game-gold" xml:space="preserve">
+        <value>Oro</value>
+    </data>
+    <data name="game-silver" xml:space="preserve">
+        <value>Plata</value>
+    </data>
+    <data name="game-black-white" xml:space="preserve">
+        <value>Negro/Blanco</value>
+    </data>
+    <data name="notfound-text" xml:space="preserve">
+        <value>No se ha encontrado el Pokémon</value>
+    </data>
+    <data name="language-text" xml:space="preserve">
+        <value>es</value>
+    </data>
+    <data name="game-diamond" xml:space="preserve">
+        <value>Diamante</value>
+    </data>
+    <data name="game-pearl" xml:space="preserve">
+        <value>Perla</value>
+    </data>
+    <data name="game-black" xml:space="preserve">
+        <value>Negro</value>
+    </data>
+    <data name="game-white" xml:space="preserve">
+        <value>Blanco</value>
+    </data>
+    <data name="game-red" xml:space="preserve">
+        <value>Rojo</value>
+    </data>
+    <data name="game-blue" xml:space="preserve">
+        <value>Azul</value>
+    </data>
+    <data name="game-ruby" xml:space="preserve">
+        <value>Rubí</value>
+    </data>
+    <data name="game-sapphire" xml:space="preserve">
+        <value>Zafiro</value>
+    </data>
+    <data name="game-firered" xml:space="preserve">
+        <value>Rojo Fuego</value>
+    </data>
+    <data name="game-leafgreen" xml:space="preserve">
+        <value>Verde Hoja</value>
+    </data>
+    <data name="game-heartgold" xml:space="preserve">
+        <value>Oro Corazón</value>
+    </data>
+    <data name="game-soulsilver" xml:space="preserve">
+        <value>Plata Alma</value>
+    </data>
+    <data name="description-text" xml:space="preserve">
+        <value>Descripción</value>
+    </data>
+    <data name="mythic" xml:space="preserve">
+        <value>Mítico</value>
+    </data>
+    <data name="legendary" xml:space="preserve">
+        <value>Legendario</value>
+    </data>
+    <data name="common" xml:space="preserve">
+        <value>Común</value>
+    </data>
+</root>

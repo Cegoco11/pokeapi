@@ -1,0 +1,130 @@
+.visordatos-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  border: 1px solid #00757c;
+  border-radius: 5px;
+}
+
+.visordatos-contenedor-titulo {
+  display: flex;
+  margin: 10px;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.visordatos-contenedor-titulo-text {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.visordatos-contenedor-titulo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+  height: 26px;
+  width: 26px;
+  object-fit: contain;
+  user-select: none;
+  animation: spin 5s infinite linear;
+}
+
+.common {
+  color: gray;
+}
+
+.common p {
+  color: gray;
+  font-weight: bold;
+}
+
+.mythic {
+  color: purple;
+}
+
+.mythic p {
+  color: purple;
+  font-weight: bold;
+}
+
+.legendary {
+  color: goldenrod;
+}
+
+.legendary p {
+  color: goldenrod;
+
+  font-weight: bold;
+}
+
+.visordatos-contenedor-img {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 400px;
+  height: 200px;
+  border-top: 1px solid #00757c;
+  border-bottom: 1px solid #00757c;
+}
+
+.visordatos-contenedor-shiny {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.visordatos-contenedor-shiny::after {
+  content: " ";
+  z-index: 2;
+  position: absolute;
+  height: 200%;
+  width: 200%;
+  animation: moveafter 2.5s infinite linear;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(254, 255, 246, 0) 45%,
+    rgb(255, 244, 120, 0.2) 50%,
+    rgba(254, 255, 246, 00) 55%,
+    rgba(255, 255, 255, 0) 100%
+  );
+}
+
+@keyframes moveafter {
+  0% {
+    top: 100%;
+    left: 100%;
+  }
+  100% {
+    top: -100%;
+    left: -100%;
+  }
+}
+
+.visordatos-contenedor-img img {
+  width: 150px;
+  height: 150px;
+  object-fit: contain;
+  pointer-events: none;
+  margin: 15px;
+}
+
+.visordatos-span-bold {
+  font-weight: bold;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

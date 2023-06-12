@@ -1,0 +1,25 @@
+.stats-contenedor-principal {
+  text-align: start;
+  width: inherit;
+  border-top: 1px solid #00757c;
+  padding: 10px;
+}
+
+.stats-contenedor-principal-titulo {
+  margin-left: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.stats-contenedor-ratings {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stats-contenedor-ratings-header {
+  display: flex;
+  width: 60px;
+  font-style: italic;
+  font-size: small;
+}

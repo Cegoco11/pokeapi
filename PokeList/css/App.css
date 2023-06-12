@@ -1,0 +1,70 @@
+.app-contenedor {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background-color: aliceblue;
+  padding: 5px;
+  width: 100%;
+}
+
+.app-contenedor-titulo-icon {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 12px;
+  height: 26px;
+  width: 26px;
+  object-fit: contain;
+  user-select: none;
+}
+
+.app-separador {
+  width: inherit;
+}
+
+.app-separador::before {
+  background-color: #00757c;
+}
+
+.app-stack-principal {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  width: 40vh;
+  margin-top: 5px;
+}
+
+.app-stack-filtros {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: row;
+  margin: 20px;
+}
+
+.app-stack-filtros-dropdown {
+  margin: 0px 10px;
+  width: 180px;
+  text-align: start;
+}
+
+.app-stack-filtros-checkbox {
+  margin: 0px 10px;
+}
+
+.app-search {
+  width: inherit;
+  border-radius: 20px;
+}
+
+.app-search::after {
+  border-bottom: 0px;
+}
+
+.app-search button:hover {
+  border-radius: 20px;
+}
+
+.app-search button {
+  border-radius: 20px !important;
+}
